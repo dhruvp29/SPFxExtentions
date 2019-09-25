@@ -17,7 +17,7 @@ Run the extension. on the Root Folder you will see undefined in the Bottom place
 
 ![RootFolder](https://github.com/dhruvp29/SPFxExtentions/blob/master/RootFolder.PNG)
 
-Now navigate to the folder. Under the folder you should see the docLibName/Foldername in the bottom placeholder.
+Now navigate to the folder. Under the folder you should see the relative path of the folder in the bottom placeholder.
 
 
 ![InsideFolder](https://github.com/dhruvp29/SPFxExtentions/blob/master/InsideFolder.PNG)
