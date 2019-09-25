@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "",
+      "customActions": {
+        "a1452a43-fa32-424b-b5f4-23bbf82f9ddd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top Area of the page",
+            "Bottom": "Bottom Area of the page"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "",
+      "customActions": {
+        "a1452a43-fa32-424b-b5f4-23bbf82f9ddd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Top Area of the page",
+            "Bottom": "Bottom Area of the page"
+          }
+        }
+      }
+    }
+  }
+}
